@@ -1,5 +1,6 @@
 html,body {
     height:100%
+    
 }
 footer {
     padding: 50px ;
@@ -26,7 +27,6 @@ ul{
     flex-direction: column; 
     align-items: center; 
 }
-
 li {
     font-size: 15px;
 }
@@ -43,15 +43,24 @@ img {
     object-fit: cover;
 }
 nav {
-    text-align: right; 
+    display: flex;
+    justify-content: flex-end; 
 }
 a {
+    font-weight:500;
     color: #000000; 
     text-decoration: none;
     }
 a:hover {
-    text-decoration: underline;      
+    text-decoration: underline;
     }
 .custom-font {
     font-family: 'Libertinus Mono', monospace;
+}
+
+@media (max-width: 768px) {
+    body nav {
+        flex-direction: column;
+        align-items: center;
+    }
 }
