@@ -58,3 +58,7 @@ a:hover {
             
     }
 
+
+.custom-font {
+    font-family: 'Libertinus Mono', monospace;
+}
