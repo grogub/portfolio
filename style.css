@@ -1,6 +1,5 @@
 html,body {
     height:100%
-    
 }
 footer {
     padding: 50px ;
@@ -20,7 +19,6 @@ section {
     text-align: center;
     align-items: center;
     font-family: 'Libertinus Mono', monospace;
-
 }
 ul{
     padding-left: 0;
@@ -51,13 +49,9 @@ a {
     color: #000000; 
     text-decoration: none;
     }
-
 a:hover {
-    text-decoration: underline;
-            
+    text-decoration: underline;      
     }
-
-
 .custom-font {
     font-family: 'Libertinus Mono', monospace;
 }
